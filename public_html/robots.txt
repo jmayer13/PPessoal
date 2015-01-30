@@ -1,0 +1,14 @@
+# robotstxt.org/
+
+
+User-Agent: *
+
+Disallow: /
+
+Allow: /html
+
+
+ /html
+
+
+/

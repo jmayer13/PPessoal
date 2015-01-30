@@ -1,0 +1,39 @@
+@import 'base';
+
+.top-buffer {
+    margin-top:2%; 
+}
+* #projects{
+    background-color:#000000;
+    p {
+        color:#6F181E;
+        font-size:  150%;
+        b{
+            color:#FC1322;
+        }
+    }
+    a>h1{
+        color:#FC1322;
+        font-weight: bold;
+    }
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img { 
+    margin: auto;
+}
+* #presentation{
+    background-color:#ffffff;
+    margin-right: 1%;
+}
+* #contact{
+    background-color:#ffffff;
+    img  {
+        margin: auto; 
+    }
+} 
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+}

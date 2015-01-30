@@ -1,0 +1,15 @@
+@import 'base';
+* .projects{
+    margin-right:1%; 
+    margin-bottom:1%; 
+    background-color:#FFFFFF;  
+    img{ 
+        margin: auto; 
+    }
+} 
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+}
