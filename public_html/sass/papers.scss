@@ -1,9 +1,13 @@
 @import 'base';
-* #papers{
+* .paper{
     margin-top:1%; 
     h2,h4{
         text-align: center;
     }    
+	.mad{ 
+	 text-align: center;
+			font-family:'Eater Caps'; 
+	}
 }
 * .paper {
     background-color:#FFFFFF;

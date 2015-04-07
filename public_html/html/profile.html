@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Jonas Portfolio</title> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--JQuery-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<!--/JQuery-->
+		<script src="../js/vendor/bootstrap.js"></script>
+
+        <script src="../js/plugins.js"></script>
+        <script src="../js/main.js"></script>
+		
+        <!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+		 
+		<!--CSS-->
+		<link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/profile.css">
+		<!--/CSS-->
+		
+		<!--Modernizr-->
+        <script src="../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<!--/Modernizr-->
+		
+		<script src="../js/google_ana.js"></script>
+		
+		<script>
+		$(document).ready(function(){ 
+			$("#headerContainer").load("../html/header.html"); 
+			$("#menuContainer").load("../html/menu.html"); 
+			$("#contendContainer").load("../html/profileInside.html"); 
+		});
+		</script>
+		
+		
+      
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="container contend">
+
+            <!--Header-->
+            <div id="headerContainer">
+			</div>
+            <!--/Header-->
+
+            <!--Menu--> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">  
+						<div id="menuContainer"></div>
+                    </div>
+                    <!--/Menu-->
+
+                    <!--Contend--> 
+                    <div id="contendContainer" class="col-md-9 " ></div>
+                </div>
+            </div>
+            <!--/Contact--> 
+        </div>
+		
+		 <div class="container">
+            <div class="row">
+                <hr />
+                <footer class="footer">
+                    <a href="http://www.wtfpl.net/"><img src=" http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png"
+                                                         width="80" height="15" alt="WTFPL" /></a><span>  Jonas Mayer</span>
+                </footer>
+				<br/>
+            </div>  
+        </div> <!-- /container -->   
+    </body>
+</html>

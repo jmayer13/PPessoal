@@ -1,4 +1,4 @@
-@import 'base';
+	@import 'base';
 
 .top-buffer {
     margin-top:2%; 
@@ -12,21 +12,35 @@
             color:#FC1322;
         }
     }
-    a>h1{
+    a{
         color:#FC1322;
         font-weight: bold;
-    }
+    } 
+	a:hover {
+		color: #990000;
+	}
 }
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img { 
-    margin: auto;
+
+.carousel-project{
+	max-height: 350px; 
 }
+.carousel-inner { 
+	height: 350px; 
+}
+.carousel-inner > .item{ 
+	height: 350px;  
+}
+.carousel-inner > .item > img { 
+	max-height: 200px; 
+	margin: auto;
+} 
 * #presentation{
-    background-color:#ffffff;
-    margin-right: 1%;
+    background-color:#ffffff; 
+	height: 200px; 
 }
 * #contact{
     background-color:#ffffff;
+	height: 200px; 
     img  {
         margin: auto; 
     }

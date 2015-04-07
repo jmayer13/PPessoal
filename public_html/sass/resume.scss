@@ -2,4 +2,80 @@
 * #resume{
     margin-top:1%; 
     background-color:#FFFFFF;
+	h1,h2,h3{
+		text-align: center;
+	}
+	#developer{
+		text-align: center;
+		 font-family: "Consolas";
+	}
 }
+* .badge{
+	
+	background:white;  
+	img{
+	max-width:128px; 
+	}
+}
+
+
+* .chartSoft { 
+	background-color: LawnGreen  ; 
+	height: 35px;     
+    margin: 3% 0px ;
+}
+* .chartLang { 
+	background-color: OrangeRed   ; 
+	height: 35px;     
+    margin: 3% 0px ;
+}
+* .chartTech { 
+	background-color: DodgerBlue ; 
+	height: 35px;     
+    margin: 3% 0px ;
+}
+* .tables{
+	table-layout: fixed;  
+		  border-collapse:separate;
+		  height: 35px; 
+		 caption{
+			font-weight: bold;
+		font-size: 120%; 
+		 
+		color: #0A0A0A;
+		 }
+		 
+    width:100%;  
+	thead tr td{ 
+		text-align: center;
+		border-bottom: 1px solid black; 
+		font-weight: bold;
+		font-size: 120%;
+	}
+	thead tr .level{ 
+		text-align: center;
+		font-size: 120%;
+		color: black;
+		background-color:  	#CCCCCC;
+		border: 2px solid #1A1A1A ;
+		font-variant: small-caps;
+		font-weight: bold;
+		-moz-border-radius: 25px;
+		-webkit-border-radius: 25px;
+		border-radius: 25px;
+		
+	}
+	tbody tr td{
+		text-align: center;
+		vertical-align: middle; 
+		border-bottom: 1px solid 	#CCCCCC;
+		
+	 }
+	tbody tr  .bar {
+	
+	
+	border-left: 1px solid 	#FFD633;
+	border-right: 1px solid  #FFD633;
+	} 
+}
+
